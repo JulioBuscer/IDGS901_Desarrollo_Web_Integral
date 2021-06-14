@@ -1,0 +1,9 @@
+body {
+    padding: 50px;
+    text-align: center;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+}
