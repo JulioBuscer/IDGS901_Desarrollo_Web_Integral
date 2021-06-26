@@ -26,19 +26,7 @@
         <li><a href="A2_5">A2_5 Calculadora</a></li>
     </ul>
 
-    <?php
-
-    function tipoVoid(): void
-    {
-        echo "funcion tipo void";
-    }
-    tipoVoid();
-
-    $variable ;
-    echo $variable ?? 'Es nulo'; 
-
-    ?>
-
+    
 
 </body>
 

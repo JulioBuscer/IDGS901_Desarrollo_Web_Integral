@@ -67,7 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    //'timezone' => 'UTC', //Default
+    'timezone' => 'America/Mexico_City', //Hora centro de mexico
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +81,8 @@ return [
     |
     */
 
-    'locale' => 'en',
+    //'locale' => 'en', //Lenguaje Ingles
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -174,6 +176,9 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\FortifyServiceProvider::class,
+        App\Providers\JetstreamServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class
 
     ],
 
@@ -227,7 +232,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Form' => Colletive\Html\FormFacade::class,
+        'HTML' => Collective\Html\HtmlFacade::class
     ],
 
 ];
