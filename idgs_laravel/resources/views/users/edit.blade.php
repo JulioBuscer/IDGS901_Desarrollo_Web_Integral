@@ -2,7 +2,7 @@
 
 @section('titulo')
 <h2>Edición de usuarios</h2>
-@endsection
+@endsection 
 
 @section('content')
 
